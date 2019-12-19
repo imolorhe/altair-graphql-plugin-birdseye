@@ -1,0 +1,17 @@
+{
+  "manifest_version": 1,
+  "name" : "altair-graphql-plugin-birdseye",
+  "version" : "0.0.1",
+  "display_name": "GraphQL BirdsEye",
+  "description" : "GraphQL BirdsEye plugin for Altair GraphQL",
+  "author_email" : "altair@sirmuel.design",
+  "author" : "Altair GraphQL Client",
+  "type": "header",
+  "sidebar_opts": {
+    "element_name": "altair-graphql-plugin-birdseye-element",
+    "icon": "assets/icon.svg"
+  },
+  "scripts": [
+    "dist/altair-graphql-plugin-birdseye-element.min.js"
+  ]
+}
